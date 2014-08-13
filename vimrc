@@ -125,7 +125,7 @@ autocmd BufReadPost *
   \ endif
 
 " MACROS
-let @p='hlk$oimport ipdbipdb.set_trace()'
+let @p='hlk$oimport ipdb;ipdb.set_trace()'
 
 filetype on
 filetype plugin on
