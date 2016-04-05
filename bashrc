@@ -15,7 +15,6 @@ export PIP_REQUIRE_VIRTUALENV=true
 export PIP_RESPECT_VIRTUALENV=true
 
 
-
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
@@ -114,3 +113,10 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
+
+if [ -f ~/.env_variables ]; then
+    . ~/.env_variables
+else
+    echo '.env_variables file is missing this will likely mess up django'
+fi
+
