@@ -1,1 +1,3 @@
-this is some test
+git clone git://github.com/gkirkpatrick/dotfiles ~/.dotfiles
+cd ~/.dotfiles
+rake install
