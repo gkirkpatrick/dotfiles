@@ -6,6 +6,9 @@
 export WORKON_HOME=~/Envs
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export EDITOR=/usr/bin/vim
+export TERM=screen-256color
+
+export PATH=$(npm bin):$PATH
 
 
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
