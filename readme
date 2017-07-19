@@ -1,3 +1,4 @@
 git clone git://github.com/gkirkpatrick/dotfiles ~/.dotfiles
 cd ~/.dotfiles
+sudo apt-get install rake
 rake install
