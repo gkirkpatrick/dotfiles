@@ -1,9 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/ubuntu/projects/persist/pp_django/pp_django/apps'
-let g:netrw_dirhist_2='/home/ubuntu/projects/persist/pp_django/pp_django/apps/curriculum'
-let g:netrw_dirhist_3='/home/ubuntu/projects/persist/pp_django/pp_django/apps/curriculum/tests'
-let g:netrw_dirhist_4='/home/ubuntu/projects/persist/pp_django/pp_django'
-let g:netrw_dirhist_5='/home/ubuntu/projects/persist/pp_django/pp_django/apps'
-let g:netrw_dirhist_6='/home/ubuntu/projects/persist/pp_django/pp_django/apps/curriculum'
-let g:netrw_dirhist_7='/home/ubuntu/projects/persist/pp_django/pp_django/apps/curriculum/tests'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/ubuntu/persist_dev/pp_django'
+let g:netrw_dirhist_2='/home/ubuntu/persist_dev/pp_django/pp_django'
+let g:netrw_dirhist_3='/home/ubuntu/persist_dev/pp_django/pp_django/apps'
+let g:netrw_dirhist_4='/home/ubuntu/persist_dev/pp_django/pp_django/apps/communications'
